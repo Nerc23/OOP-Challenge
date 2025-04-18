@@ -2,8 +2,8 @@
 class Pet: #Python is like Java, just with a few more steps 
     def __init__(self, name):
         self.name = name #name of my pet
-        self.hunger = 2  #an integer representing hunger level(0=full, 10 = very hungry)
-        self.energy = 9  #an integer, enegry level (0 = tired, 10 = fully rested)
+        self.hunger = 2  #an integer representing hunger level(0=full, 10 = very hungry) | changed value from 5 to 2
+        self.energy = 9  #an integer, enegry level (0 = tired, 10 = fully rested) | changed value from 5 to 2
         self.happiness = 5 # level 0 to 10
         self.tricks= [] #teaches pet new tricks and stores in a list | somewhere somehow add method to print learnt tricks| BONUS
         
